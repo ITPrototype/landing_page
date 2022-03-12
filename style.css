@@ -532,7 +532,7 @@ header{
         height: 100px;
     }
 }
-@media screen and (max-width:450px) {
+@media screen and (max-width:600px) {
     .header_text{
         font-size: 15px;
         margin-top: 5px;
