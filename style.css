@@ -454,6 +454,7 @@ header{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 40px 190px;
     }
     .menu ul{
         margin-top: 20px;
