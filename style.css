@@ -175,15 +175,27 @@ header{
     height: 330px;
     border: 1px solid gray;
 }
+.service_book:hover{
+    transition: 0.8s;
+    box-shadow: 0.1px 0.1px 1px 1px #00A4E5;
+}
 .service_store{
     width: 295px;
     height: 330px;
     border: 1px solid gray;
 }
+.service_store:hover{
+    transition: 0.8s;
+    box-shadow: 0.1px 0.1px 1px 1px #00A4E5;
+}
 .service_bank{
     width: 295px;
     height: 330px;
     border: 1px solid gray;
+}
+.service_bank:hover{
+    transition: 0.8s;
+    box-shadow: 0.1px 0.1px 1px 1px #00A4E5;
 }
 .image_book{
     width: 65.62px;
@@ -400,4 +412,174 @@ header{
     line-height: 13px;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
+}
+/* Mobile version */
+@media screen and (max-width: 1371px) {
+    .new_email{
+        height: 100px;
+        background: #171819;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+    header{
+        height: 500px;
+    }
+    .header_text{
+        margin-top: 181px;
+    }
+    .scroll_down{
+        margin-top: 90px;
+    }
+    .footer_content{
+        padding: 42px 190px;
+    }
+}
+@media screen and (max-width:1000px) {
+    header{
+        width: 100%;
+        height: 390px;
+    }
+    .header_text{
+        margin-top: 131px;
+    }
+    .scroll_down{
+        margin-top: 30px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu ul{
+        margin-top: 20px;
+    }
+    .about_block{
+        width: 400px;
+    }
+    .about_flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .head_side_text{
+        text-align: center;
+    }
+    .down_text{
+        text-align: center;
+    }
+    .photo_container{
+        width: 500px;
+        margin-left: -50px;
+    }
+    .services_block{
+        margin-top: 500px;
+        width: 400px;
+    }
+    .service_cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .srvc_text{
+        display: none;
+    }
+    .service_head{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .service_title{
+        text-align: center;
+    }
+    .down_line_service{
+        margin: auto;
+        margin-top: 10px;
+    }
+    .button_srv{
+        margin: auto;
+        width: 30px;
+    }
+    .before_footer{
+        margin-top: 850px;
+    }
+    .new_email{
+        padding: 5px 0px;
+    }
+    .footer_content{
+        padding: 10px 10px;
+    }
+    .blog{
+        display: none;
+    }
+    .ul_links_flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .link_linkhead{
+        margin-left: 30px;
+    }
+    .icons_footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 90px;
+        height: 100px;
+    }
+}
+@media screen and (max-width:450px) {
+    .header_text{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .little_text{
+        font-size: 10px;
+        margin-top: -15px;
+    }
+    header{
+        height: 200px;
+    }
+    .scroll_down{
+        display: none;
+    }
+    .logo_nav img{
+        width: 70px;
+    }
+    .menu ul{
+        width: 400px;
+        padding-right: 30px;
+    }
+    .photo_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .photo_container img{
+        width: 150px;
+        height: 220px;
+    }
+    .off_style{
+        display: none;
+    }
+    .services_block{
+        margin-top:550px;
+    }
+    .first_box{
+        display: none;
+    }
+    .contact_title{
+        font-size: 10px;
+        font-weight: 300;
+        text-align: center;
+        padding-top: 5px;
+    }
+    .text_contact{
+        max-width: 200px;
+    }
 }
