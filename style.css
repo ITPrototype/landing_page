@@ -439,9 +439,22 @@ header{
     }
 }
 @media screen and (max-width:1000px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding:0;
+        overflow-x: hidden;
+    }
     header{
         width: 100%;
         height: 390px;
+    }
+    .menu ul{
+        padding-left: 30px;
+    }
+    .menu ul li{
+        font-size: 13px;
     }
     .header_text{
         margin-top: 131px;
@@ -533,7 +546,7 @@ header{
         height: 100px;
     }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:412px) {
     .header_text{
         font-size: 15px;
         margin-top: 5px;
@@ -568,8 +581,11 @@ header{
     .off_style{
         display: none;
     }
+    .service_head_text{
+        width: 300px;
+    }
     .services_block{
-        margin-top:550px;
+        margin-top:600px;
     }
     .first_box{
         display: none;
@@ -582,5 +598,35 @@ header{
     }
     .text_contact{
         max-width: 200px;
+    }
+    .faq{
+        display: none;
+    }
+    .link_linkhead{
+        margin: 5px;
+    }
+    footer .ft_txt{
+        padding-left: 10px;
+    }
+    .button_srv{
+        margin: 5px auto;
+        width: 50px;
+    }
+    .down_text{
+        margin: 10px auto;
+        width: 300px;
+    }
+    .email_send input{
+        width: 140px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .service_button{
+        width: 50px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .service_button{
+        width: 150px;
     }
 }
